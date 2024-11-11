@@ -1,0 +1,475 @@
+*{
+box-sizing: border-box;
+padding: 0;
+margin: 0;
+
+}
+
+
+.image{
+    width: 80px;
+    height: 80px;
+    margin: auto;
+
+}
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.7)), url(../imgs/bg.jpg);
+    background-position:center;
+    background-attachment:fixed;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.w-30{
+    width: 30%;
+}
+.w-80{
+    width: 80%;
+}
+.w-90{
+    width: 90%;
+}
+.w-95{
+    width: 95%;
+}
+.w-85{
+    width: 85%;
+}
+.w-90{
+    width: 90%;
+}
+.anmi{
+transition: all 1s;
+font-size:4rem;
+white-space:wrap;
+
+}
+
+.anmi::after{
+    content: '';
+    animation: ani 6s 1s infinite ;
+}
+
+@keyframes ani{
+
+
+1.65%{
+    content: "D|";
+}
+3.3%{
+    content: "De|";
+}
+4.95%{
+    content: "Des|";
+}
+6.6%{
+    content: "Desi|";
+}
+8.25%{
+    content: "Desig|";
+}
+9.9%{
+    content: "Design|";
+}
+11.55%{
+    content: "Designe|";
+}
+13.2%{
+    content: "Designer|";
+}
+14.85%{
+    content: "Designe|";
+}
+16.5%{
+    content: "Design|";
+}
+18.15%{
+    content: "Desig|";
+}
+19.8%{
+    content: "Desi|";
+}
+21.45%{
+    content: "Des|";
+}
+23.1%{
+    content: "De|";
+}
+24.75%{
+    content: "D|";
+}
+26.4%{
+    content: "|";
+}
+
+28.05%{
+    content: "D|";
+}
+29.7%{
+    content: "De|";
+}
+31.35%{
+    content: "Dev|";
+}
+33%{
+    content: "Deve|";
+}
+34.65%{
+    content: "Devel|";
+}
+36.3%{
+    content: "Develo|";
+}
+37.95%{
+    content: "Develop|";
+}
+39.6%{
+    content: "Develope|";
+}
+41.25%{
+    content: "Developer|";
+}
+42.9%{
+    content: "Develope|";
+}
+44.55%{
+    content: "Develop|";
+}
+46.2%{
+    content: "Develo|";
+}
+47.85%{
+    content: "Devel|";
+}
+49.5%{
+    content: "Deve|";
+}
+51.15%{
+    content: "Dev|";
+}
+52.8%{
+    content: "De|";
+}
+
+54.45%{
+    content: "D|";
+}
+56.1%{
+    content: "|";
+}
+57.75%{
+    content: "L|";
+    
+}
+59.4%{
+    content: "La|";
+}
+61.05%{
+    content: "Lar|";
+}
+62.7%{
+    content: "Larr|";
+}
+64.35%{
+    content: "Larry|";
+}
+66%{
+    content: "Larry |";
+}
+67.65%{
+    content: "Larry D|";
+}
+69.3%{
+    content: "Larry Da|";
+}
+70.95%{
+    content: "Larry Dan|";
+}
+72.6%{
+    content: "Larry Dani|";
+}
+74.25%{
+    content: "Larry Danie|";
+}
+75.9%{
+    content: "Larry Daniel|";
+}
+77.55%{
+    content: "Larry Daniels|";
+}
+79.2%{
+    content: "Larry Daniel";
+}
+
+80.85%{
+    content: "Larry Danie|";}
+82.5%{
+    content: "Larry Dani|";
+}
+84.15%{
+    content: "Larry Dan|";
+}
+85.8%{
+    content: "Larry Da|";
+}
+87.45%{
+    content: "Larry D|";
+}
+89.1%{
+    content: "Larry |";
+}
+90.75%{
+    content: "Larry|";
+}
+92.4%{
+    content: "Larr|";
+}
+94.1%{
+    content: "Lar|";
+}
+95.6%{
+    content: "La|";
+}
+97.5%{
+    content: "L|";
+}
+99%{
+    content: "L|";
+}
+100%{
+    content: "|";
+}
+
+
+
+}
+
+
+.innner{
+    position: relative;
+}
+.img2{
+    content: "";
+  width: 100%;
+  height: 80%;
+  position: absolute;
+  left: -20px;
+  bottom: -20px;
+  background-image: url(../imgs/dots.png);
+  background-repeat: repeat;
+  z-index: -5;
+  
+}
+.dots{
+    position: relative;
+   
+    
+}
+.dots::after{
+    content: "";
+    width: 15%;
+    height:15px;
+    position: absolute;
+    border: 100px;
+    left: 50%;
+    bottom:40px;
+    transform: translate(-50%);
+    background-image: url(../imgs/dots.png);
+    background-repeat: repeat;
+    z-index: 1;
+}
+
+
+.innerport{
+position:relative;
+
+overflow: hidden;
+}
+.lay{
+    position:relative;
+
+    overflow: hidden; 
+}
+
+.layerr{
+    background-color:rgb(255, 255, 255,0.95);
+position: absolute;
+top: 0px;
+right: 0px;
+left: 0px;
+bottom: 0px;
+border: 4px solid lightgray;
+opacity:0 ;
+z-index:1;
+overflow: hidden;
+transition: all 1s;
+}
+.layerteam{
+
+    background-color:rgb(255, 255, 255,0.9);
+    position: absolute;
+    top: 5px;
+    right:5px;
+    left: 5px;
+    bottom: 5px;
+    opacity:0 ;
+    z-index:1;
+    overflow: hidden;
+    transition: all 1s; 
+    transform: scale(0.5,0.5);
+    
+}
+.innerport:hover .layerr{
+opacity: 1;
+
+}
+.innerteam:hover .layerteam{
+    opacity: 1;
+   transform: rotatey(180deg) scale(1,1);
+    transition: all 0.75s;
+    cursor: pointer;
+}
+.lay:hover .immm{
+    transform: scale(1.2);
+    transition: all 0.5s ;
+    cursor: pointer;
+}
+
+.imag{
+
+width: 100px;
+height: 100px;
+border-radius: 50%;
+
+}
+
+.space{
+letter-spacing: 2px;
+
+
+}
+
+
+.bt1:hover{
+background-color: transparent!important;
+color: black !important;
+}
+.bt2:hover{
+background-color: black;
+color: white;
+}
+.bt2{
+    width: 120px;
+}
+
+
+
+.circle{
+width: 70px;
+height: 70px;
+background-color:transparent;
+border-radius: 50%;
+
+
+}
+.circlle{
+    width: 40px;
+    height: 40px;
+    background-color:black;
+    color: white;
+    border-radius: 50%;
+    
+    
+    }
+    .circll{
+        width: 35px;
+        height: 35px;
+        background-color:rgba(0,0,0,0.3);
+        border-radius: 50%;
+        color: white;
+        
+        }
+.circll:hover{
+
+cursor: pointer;
+
+}
+
+.circlle:hover{
+
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+    cursor: pointer;
+
+    }
+.inner1:hover .circle{
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+.portofolio .active{
+    position: relative !important;
+    background-color: transparent !important;
+   
+    
+  }
+  
+  .portofolio .active::after {
+    content: "" !important;
+    width: 50px !important;
+    height: 2px !important;
+    background-color:black !important;
+    position: absolute !important;
+    top: 85% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+   
+  }
+ Nav .active{
+    position: relative !important;
+    background-color: transparent !important;
+   
+    
+  }
+ 
+  
+  Nav .active::after {
+    content: "" !important;
+    width: 50px !important;
+    height: 2px !important;
+    background-color:black !important;
+    position: absolute !important;
+    top: 85% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+    
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media(max-width:576px){
+Nav ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.dddd{
+    width: 100% !important;
+}
+
+
+
+  }
